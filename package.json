@@ -1,0 +1,32 @@
+{
+  "name": "@2ng/linters",
+  "version": "0.0.1",
+  "description": "Stylelint, tslint configs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2ng/linters.git"
+  },
+  "keywords": [
+    "stylelint",
+    "tslint",
+    "config"
+  ],
+  "author": "Andrey Podkovyrov <a.podkovyrov@yandex.ru>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/2ng/linters/issues"
+  },
+  "homepage": "https://github.com/2ng/linters#readme",
+  "dependencies": {
+    "prettier": "^2.0.2",
+    "prettier-stylelint": "^0.4.2",
+    "stylelint": "^13.2.1",
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-order": "^4.0.0",
+    "stylelint-prettier": "^1.1.2"
+  }
+}
