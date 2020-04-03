@@ -1,18 +1,24 @@
-### @2ng/linters
+## @2ng/linters
 
-## Stylelint
+### Stylelint
 
-`.stylelintrc`
+``` 
+npm i @2n/linters
+```
+
+---
+
+**`.stylelintrc`**
 
 ```json
 {
-  "extends": ["@tinkoff/linters/stylelint/bases/prettier.stylelint.json"]
+  "extends": ["@2ng/linters/stylelint/stylelint.json"]
 }
 ```
 
 ---
 
-`package.json`
+**`package.json`**
 
 Добавить в поле `scripts` команду:
 
@@ -24,7 +30,7 @@
 
 ---
 
-`VsCode`
+**`VsCode`**
 
 Установить `stylelint.vscode-stylelint`
 
