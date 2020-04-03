@@ -3,7 +3,7 @@
 ### Stylelint
 
 ``` 
-npm i @2n/linters
+npm i @2ng/linters
 ```
 
 ---
